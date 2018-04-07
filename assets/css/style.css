@@ -1,0 +1,60 @@
+body {
+    background-image: url("/Users/jessicamorgan/Desktop/bootcamp/unit-4-game/assets/images/wormz.png");
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    background-color: orangered;
+    color: white;
+}
+
+p {
+    background-color: goldenrod;
+    color: green;
+}
+
+#wins-and-losses {
+    background-color: lightblue;
+    height: 125px;
+    color: green;
+}
+
+#random-number {
+    background-color: lightgreen;
+    height: 125px;
+    color: purple;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+
+.crystal-image {
+    width: 50px;
+    height: 50px;
+}
+#crystal1 {
+
+}
+
+#crystal2 {
+    
+}
+
+#crystal3 {
+    
+}
+#crystal4 {
+    
+}
+
+#total-score-is {
+    background-color: teal;
+    color: white;
+}
+
+#total-score {
+    background-color: teal;
+    color: white;
+    height: 125px;
+    font-size: 40px;
+}

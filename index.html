@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unit-4-Game</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!--<link rel = "stylesheet" type = "text/css" href = "reset.css"/>-->
+
+  <!-- CSS -->
+  <link rel = "stylesheet" type = "text/css" href = "./assets/css/style.css"/>
+
+  
+</head>
+
+<body>
+
+  <!-- row 1 -->
+  <div class = "row">
+    <div class = "col-md-4">
+      <h1>Crystal Collector!</h1>
+    </div>
+  </div>
+
+  <!-- row 2 -->
+    <div class = "row">
+      <div class = "col-md-4" id = "instructions">
+        <p>You will be given a random number at the start of the game.
+          <br>
+          <br>
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+          <br>
+          <br>
+            You will win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+          <br>
+          <br>
+            The value of each crystal is ß from you until you click on it.
+          <br>
+          <br>
+            Each time when the game starts, the game will change the values of each crystal.
+        </p>
+      </div>
+    </div>
+
+    <!-- row 3 -->
+    <div class = "row">
+      <div class = "col-md-2" id = "random-number"></div>
+
+      <div class = "col-md-1" id = "wins-and-losses">
+        <br>
+        <div id = "wins">Wins: 0</div>
+        <div id = "losses">Losses: 0</div>
+      </div>
+    </div>
+
+    <br> 
+
+    <!-- row 4 -->
+    <div class = "row">
+      <div class = "col-md-1">
+        <img class = "crystal-image" src = "/Users/jessicamorgan/Desktop/bootcamp/unit-4-game/assets/images/bluecrystal.jpg" alt = "blue crystal" id = "crystal1"></button>
+      </div>
+      <div class = "col-md-1">
+        <img class = "crystal-image" src = "/Users/jessicamorgan/Desktop/bootcamp/unit-4-game/assets/images/greencrystal.jpg" alt = "green crystal" id = "crystal2">
+      </div>
+      <div class = "col-md-1">
+        <img class = "crystal-image" src = "/Users/jessicamorgan/Desktop/bootcamp/unit-4-game/assets/images/purplecrystal.jpeg" alt = "purple crystal" id = "crystal3">
+      </div>
+      <div class = "col-md-1">
+        <img class = "crystal-image" src = "/Users/jessicamorgan/Desktop/bootcamp/unit-4-game/assets/images/redcrystal.jpg" alt = "red crystal" id = "crystal4">
+      </div>
+    </div>
+
+    <br>
+
+    <!-- row 5 -->
+    <div class = "row">
+      <div class = "col-md-3" id = "total-score-is" >
+        Your total score is: 
+      </div>
+    </div>
+
+    <br>
+    
+    <!-- row 6 -->
+    <div class = "row">
+      <div class = "col-md-3" id = "total-score"></div>
+    </div>
+    
+    
+  </div>
+</body>
+
+ <!-- Added link to the jQuery library -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Added link to JS file -->
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+  
